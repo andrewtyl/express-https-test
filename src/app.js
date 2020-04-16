@@ -21,12 +21,12 @@ app.use(helmet())
 app.use(cors())
 
 // If you want to use HTTPS instead when deploying to Heroku, uncomment these lines. Make sure your have ACM or Manual Certificates setup
-/*
+
 if (NODE_ENV === "production") {
     const sslRedirect = require('heroku-ssl-redirect')
     app.use(sslRedirect())
 }
-*/
+
 
 app.use(function errorHandler(error, req, res, next) {
     let response
