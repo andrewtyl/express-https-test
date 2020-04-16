@@ -1,0 +1,15 @@
+language: node_js
+node_js: 10
+
+#Setup Travis CI (on travis-ci.com, don't use .org), then Uncomment and fill out the remainder of this file for automatic deployment to your Heroku app.
+#Install the Travis-CI and Heroku CLIs, and you can use "travis encrypt $(heroku auth:token) --add deploy.api_key --pro" in terminal to automatically add the encrypted API key to this file.
+
+# deploy:
+#  app: 
+#  on:
+#    branch: master
+#  provider: heroku
+#  api_key:
+#    secure: 
+# notifications: 
+#  email: 
